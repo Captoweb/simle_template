@@ -160,6 +160,9 @@ table {
     h2 {
         font-size: 3rem;
     }
+    form {
+        margin: 0 5px;
+    }
 }
 
 
