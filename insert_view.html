@@ -10,22 +10,27 @@
     <title>Document</title>
 </head>
 <body>
+
     <!-- menu -->
+
     <header class="header">
-        <div class="logo">
-            <a href="index.html">logo.png</a>
-        </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Form</a></li>
-                <li><a href="#">Form 2</a></li>
-            </ul>
-        </nav>
-        <div class="phone">
-            <i class="= fa fa-phone-square" aria-hidden="true"></i>
-            icon here +88002000700
-        </div>
-    </header>
+      <div class="container">
+          <div class="header__inner"> 
+              <a href="index.html"><img class="home" src="img/home-svgrepo-com.svg" style="width:20px;"></a>
+
+              <nav class="nav">
+                  <a class="nav__link active" href="insert_view.html">Nav 1</a>
+                  <a class="nav__link" href="#">Nav 2</a>
+                  <a class="nav__link" href="#">Nav 3</a>
+              </nav>
+              
+              <button class="burger" type="button" id="navToggle">
+   <img class="image" src="img/menu-svgrepo-com.svg" style="width:22px;">
+
+              </button>
+          </div>
+      </div>
+  </header>
 
     <!-- .container is main centered wrapper -->
 <div class="container">
@@ -65,6 +70,6 @@
 </div> <!-- /.row -->
   </form>
   
-
+  <script src="nav.js"></script>
 </body>
 </html>
